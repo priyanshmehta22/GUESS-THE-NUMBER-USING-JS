@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GUESS THE NUMBER</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<style>
+    body{
+        background-color: black;
+    }
+    #container{
+        
+        width: 100%;
+        height: 100%;
+    }
+    #heading{
+        text-align: center;
+        font-size: 50px;
+        color: white;
+    }
+    #random_no{
+        position: absolute;
+        top: 140px;
+        left: 660px;
+    }
+    #guess{
+        position: absolute;
+        top: 400px;
+        left: 450px;
+        color: white;
+        width: 150px;
+        height: 150px;
+    }
+    #center{
+        position: absolute;
+        top: 370px;
+        left: 450px;
+        color: white;
+        width: 250px;
+        height: 100px;
+    }
+    #submit{
+        position: absolute;
+        top: 420px;
+        left: 620px;
+        width: 100px;
+        height: 50px;
+    }
+    #result{
+        position: absolute;
+        top: 370px;
+        left: 850px;
+        color: white;
+        font-size: 40px;
+    }
+
+</style>
+    </head>
+<body>
+    <div class="container" id="container">
+        <h1 id="heading">GUESS THE NUMBER 👻</h1>
+        <div class="card" id="random_no" style="width: 10rem; height: 10rem; color: black;">
+        <img src="https://st.depositphotos.com/1048071/2323/i/950/depositphotos_23235122-stock-photo-3d-render-of-man-with.jpg"></div>
+        </div>     
+        <label for="exampleFormControlTextarea1" id="center" class="form-label">TYPE YOUR GUESS🤔</label> 
+        <div class="mb-3" id="guess">
+            
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+        <button type="button" class="btn btn-primary" id="submit">SUBMIT</button>
+    </div>
+    <div class="result" id="result">
+        <p>
+            SCORE: <div id="score"> </div>
+            HIGH SCORE:<div id="HIGH_score"> </div>
+        </p>
+    </div>
+    <script src="GUESS THE NUMBER.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>  
+</body>
+</html>
